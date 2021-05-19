@@ -8,25 +8,25 @@ import SubMenu from './SubMenu';
 import { IconContext } from 'react-icons/lib';
 
 const Nav = styled.div`
-  background: #15171c;
-  height: 80px;
+  background: #121212;
+  height: 50px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 `;
 
 const NavIcon = styled(Link)`
-  margin-left: 2rem;
-  font-size: 2rem;
-  height: 80px;
+  margin-left: 1rem;
+  font-size: 1rem;
+  height: 20px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 `;
 
 const SidebarNav = styled.nav`
-  background: #15171c;
-  width: 250px;
+  background: #121212;
+  width: 220px;
   height: 100vh;
   display: flex;
   justify-content: center;
